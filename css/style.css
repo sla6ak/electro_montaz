@@ -1,2 +1,52 @@
-body{background-color: aquamarine;
+body{background-color: rgb(208, 246, 255);
+    
+}
+/* header{
+    background: rgb(70, 65, 116) url(../resurses/IMG_76601.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: aliceblue;
+    min-height: 600px;
+    margin: 0px;
+    padding: 30px;
+} */
+.sent{
+    background: rgb(70, 65, 116) url(../resurses/IMG_76601.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: aliceblue;
+    min-height: 600px;
+    margin: 0px;
+    padding: 30px;
+}
+.orang{
+    
+    width: 160px;
+    height: 40px;
+    background-color: rgb(224, 110, 17);
+    padding: 10px;
+    color: aliceblue;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(54, 53, 53);
+}
+.center{
+    min-height: 600px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bar{
+    display: flex;
+    width: 100%;
 }
