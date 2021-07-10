@@ -1,28 +1,40 @@
-body{background-color: rgb(208, 246, 255);
-    
+body{background-color: rgb(208, 246, 255); 
+}
+a{
+    text-decoration: none;
 }
 .sent{
     background: rgb(70, 65, 116) url(../resurses/IMG_76601.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     color: aliceblue;
     min-height: 600px;
     margin: 0px;
     padding: 30px;
 }
+.bar-ul{
+    list-style-type: none;
+}
+.nomark{
+    list-style-type: none;
+}
+.bar-purpur{
+    color: rgb(221, 47, 120);
+    font-weight: bolder;
+}
+.sent-main{
+    margin-left: 10%;
+}
 .sent-orang{
-    color: rgb(255, 118, 6);
+    color: rgb(221, 47, 120);
 }
 .orang{
     
     width: 160px;
     height: 40px;
-    background-color: rgb(224, 110, 17);
+    background-color: rgb(221, 47, 120);
     color: aliceblue;
     border-style: solid;
     border-width: 3px;
@@ -33,8 +45,12 @@ body{background-color: rgb(208, 246, 255);
     padding-bottom: 10px;
 }
 .center{
-    min-height: 400px;
     max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.premera{
+    max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -46,7 +62,7 @@ body{background-color: rgb(208, 246, 255);
 .bar-ul{
     display: flex;
     width: 100%;
-    height: 100%;
+    justify-content: space-around;
 }
 .sent-scroll{
     width: 160px;
@@ -63,4 +79,18 @@ body{background-color: rgb(208, 246, 255);
 .tel{
     display: flex;
     flex-direction: column;
+}
+.js{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.why{
+    background-color: rgb(156, 196, 216);
+    padding: 20px 13%;
+    
+}
+footer{
+max-width: 80%;
+margin: 30px auto;
 }
