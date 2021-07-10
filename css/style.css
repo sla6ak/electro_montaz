@@ -27,8 +27,12 @@ a{
 .sent-main{
     margin-left: 10%;
 }
+.sent-main-higt{
+    font-size: 25px;
+}
 .sent-orang{
     color: rgb(221, 47, 120);
+    font-size: 40px;
 }
 .orang{
     
@@ -37,7 +41,7 @@ a{
     background-color: rgb(221, 47, 120);
     color: aliceblue;
     border-style: solid;
-    border-width: 3px;
+    border-width: 5px;
     border-color: rgb(54, 53, 53);
     margin-top: 20px;
     text-align: center;
@@ -45,7 +49,7 @@ a{
     padding-bottom: 10px;
 }
 .center{
-    max-width: 1200px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -53,6 +57,7 @@ a{
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
 }
 .bar{
     display: flex;
@@ -93,4 +98,7 @@ a{
 footer{
 max-width: 80%;
 margin: 30px auto;
+}
+.sent-text{
+    font-style: oblique;
 }

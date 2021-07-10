@@ -18,12 +18,12 @@
             </ul>
                 <div class="tel">
                     <span>Звоните:</span> <a href="tel:+380966290475">0966290475</a> 
-                    отвечу круглосуточно
+                    <span class="sent-text">отвечу круглосуточно</span> 
                 </div> 
         </div>
         <div class="sent-main">
-            <h1>Электрик, сантехник в Кривом Роге!</h1>
-            <p> Я занимаюсь обслуживанием комуникаций, <br> 
+            <a name="main"> <h1>Электрик, сантехник в Кривом Роге!</h1></a>
+            <p class="sent-main-higt"> Я занимаюсь обслуживанием комуникаций, <br> 
             от мелкого ремонта до полной замены.
             </p>
             <a href="#sent-batton"><div class="orang">Отправить заявку<br> онлаин</div></a> 
@@ -118,18 +118,22 @@
         <div class="js">
             <p>Если у вас остались вопросы опишите их в онлаин форме или свяжитесь со мной по телефону.</p>
             <a name="sent-batton"><h2 class="sent-orang">Отправить заявку</h2></a> 
-            <form action="name">Имя</form> 
-            <form action="name">Ваш телефон</form>
-            <form action="name">Описание заказа</form>
-            <button>Отправить</button>
-            <p>Вся личная информация является конфеденциальной и не может быть передана 3-м лицам</p>
+            <form action="">
+                <p class="sent-text"><input type="text">Ваше имя</p>
+                <p class="sent-text"> <input type="tel" name="" id="">Ваш телефон</p>
+                <p class="sent-text"> <textarea name="about" id="" cols="40" rows="10"></textarea>Описание заказа</p>
+                <button>Отправить</button>
+            </form>
+            <p class="sent-text">Вся личная информация является конфеденциальной и не может быть передана 3-м лицам</p>
         </div>
     </section>
     <footer>
         <a name="footer"><h2>О нас:</h2></a>
         <span>Звоните:</span> <a href="tel:+380966290475">0966290475</a>
+        <p>Я нахожусь:</p>
         <address>г. Кривой Рог, район ЮГОКа</address>
         <iframe src="https://goo.gl/maps/TZFD5DRU8Apvy71YA" frameborder="0">https://goo.gl/maps/EMf9RjMWDbeqBvyi8</iframe>
+        <a href="#main"><div class="orang">Вернуться<br>на главную</div></a>
      </footer>
 </body>
 </html>
